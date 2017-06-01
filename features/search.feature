@@ -7,5 +7,5 @@ Feature: Search
 	Scenario: Check privacy content
 		Given I am on "/home"
 		When I should see "privacy"
-		And I press "searchButton"
-		Then I should see "an enlarged sickle-shaped claw"
+		And I press "PRIVACY [UPDATED]"
+		
