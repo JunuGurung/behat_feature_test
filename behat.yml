@@ -1,0 +1,8 @@
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      goutte: ~
+      selenium2: ~
+      javascript_session: 'selenium2'
+      base_url: 'http://mequilibrium.com'
+      browser_name: 'internet explorer'
